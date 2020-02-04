@@ -1,0 +1,370 @@
+/*
+Theme Name: Travio
+Author: Zarak Khan
+Description: This theme is made for personal portfolio purpose.
+Version: 1.0
+Tags: blog, travio, portfoilo, theme.
+*/
+* {
+	font-family: "Montserrat", sans-serif;
+}
+:root {
+	--nav-color: #3a6fff;
+	--nav-text-color: #ffffff;
+	--heading-color: #3a6fff;
+	--text-color: #3a6fff;
+	--footer-color: #2e2e2e;
+	--footer-text-color: #ffffff;
+	--first-icon-color: #ffffff;
+	--second-icon-color: #ffffff;
+	--third-icon-color: #ffffff;
+}
+a:hover {
+	text-decoration: none;
+}
+.my-nav {
+	background-color: var(--nav-color);
+}
+.my-col {
+	flex-grow: 0.5 !important;
+}
+.my-nav a {
+	color: var(--nav-text-color);
+}
+.my-nav li a {
+	color: var(--nav-text-color);
+	font-weight: 500;
+}
+.nav-icons .widget {
+	display: inline;
+	padding-left: 0.125rem;
+}
+.my-nav i {
+	color: var(--nav-text-color);
+}
+
+/*new nav*/
+nav {
+	list-style-type: none;
+}
+nav ul {
+	margin-left: auto;
+}
+.custom-logo-link img {
+	max-width: 6vw;
+	max-height: 6vw;
+}
+.my-container {
+	max-width: 85vw;
+	margin-right: auto;
+	margin-left: auto;
+}
+.logo {
+	font-weight: 800;
+	font-size: 1.25rem;
+}
+.owl-carousel .owl-item .item img {
+	width: 100%;
+	height: 100%;
+}
+.owl-nav {
+	display: none;
+}
+.owl-dots {
+	display: none;
+}
+
+.carousel-overlay {
+	position: absolute;
+	bottom: 0px;
+	opacity: 0.7;
+	z-index: 1;
+	background-color: white;
+	color: var(--text-color);
+	width: 60%;
+	padding-left: 1%;
+}
+.carousel-overlay h3 {
+	font-weight: 600;
+	color: var(--heading-color);
+}
+
+.top-destinations h5 {
+	font-weight: 600;
+	color: var(--heading-color);
+	font-size: 1.5rem;
+}
+.top-destinations img {
+	filter: blur(1px);
+}
+.top-destinations .row .card-title {
+	text-shadow: 5px 5px 5px black;
+	color: white;
+}
+.top-destinations .card img {
+	width: 95%;
+	height: 95%;
+}
+
+.end-line {
+	width: 50%;
+	height: 2.5px;
+	background-color: var(--text-color);
+	border-radius: 50px;
+}
+
+.destinations {
+	color: var(--heading-color);
+}
+.destinations h5 {
+	font-weight: 600;
+	font-size: 1.5rem;
+}
+.destinations li {
+	list-style-type: none;
+	margin-bottom: 1rem;
+}
+.destinations li h3 {
+	font-size: 1.125rem;
+	font-weight: 600;
+}
+.destinations ul {
+	padding-inline-start: 0 !important;
+}
+.destinations .row ul li {
+	margin-bottom: 0.5rem;
+}
+.destinations .row ul li a {
+	color: var(--text-color);
+}
+
+.blog-posts h5 {
+	font-weight: 600;
+	color: var(--heading-color);
+	font-size: 1.5rem;
+}
+.blog-posts .card-body {
+	padding: 0rem;
+	padding-left: 0.1rem;
+}
+.blog-posts .card-img-top {
+	border-radius: 0rem;
+}
+
+.blog-posts p {
+	margin-bottom: 0.1rem;
+	color: var(--text-color);
+}
+.blog-posts .text-muted {
+	color: var(--text-color) !important;
+}
+.blog-posts .card-title {
+	font-size: 1rem;
+	color: var(--text-color);
+}
+.blog-posts .card img {
+	width: 95%;
+	height: 95%;
+}
+
+/*footer*/
+footer {
+	background-color: var(--footer-color);
+	color: var(--footer-text-color);
+	font-size: 0.75rem;
+}
+footer h3 {
+	font-size: 1rem;
+}
+footer p {
+	font-size: 0.5rem;
+}
+footer a {
+	color: var(--footer-text-color);
+}
+footer .cat-item {
+	list-style: none;
+}
+
+/*destination page*/
+.my-breadcrumb {
+	background-color: white !important;
+}
+.my-breadcrumb li {
+	color: var(--text-color);
+}
+.my-breadcrumb li a {
+	color: var(--text-color);
+}
+.destination-page-blog-posts .card {
+	border: none;
+}
+.destination-page-blog-posts small {
+	color: var(--text-color) !important;
+}
+.destination-page-blog-posts h5 {
+	color: var(--heading-color);
+	font-weight: 600;
+}
+.destination-page-blog-posts p {
+	color: var(--text-color);
+}
+.review h5 {
+	color: var(--heading-color);
+	font-weight: 600;
+}
+.review {
+	color: var(--text-color);
+}
+.dest-post img {
+	width: 95%;
+	height: 95%;
+}
+
+/*blog page*/
+.blog-posts-page img {
+	width: 95%;
+	height: 95%;
+}
+.card {
+	border: none;
+}
+.card small {
+	color: var(--text-color) !important;
+}
+.card .card-title {
+	font-weight: 800;
+	color: var(--heading-color);
+}
+.small-posts .card-title {
+	font-size: 0.9rem;
+	margin-bottom: 0.25rem;
+	font-weight: 800;
+	color: var(--heading-color);
+}
+.small-posts .card {
+	font-size: 0.55rem;
+}
+.card-body p {
+	margin: 0;
+	color: var(--text-color);
+}
+/*about*/
+.about-page {
+	padding-right: 5vw;
+	margin-bottom: 2.5rem !important;
+	color: var(--text-color);
+}
+.about-page h5 {
+	font-weight: 700;
+	font-size: 2rem;
+	color: var(--heading-color);
+}
+.about-page p {
+	margin-bottom: 0rem;
+	color: var(--text-color);
+}
+.about-page-contact {
+	width: 75vw;
+	margin-top: 5rem;
+	padding-right: 5vw;
+	margin-bottom: 5rem;
+	color: var(--text-color);
+}
+
+.about-page-contact h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--heading-color);
+}
+
+.about-page-social {
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+.about-page-social .widget {
+	display: inline;
+}
+.about-page-social h3 {
+	font-size: 2rem;
+	font-weight: 700;
+	color: var(--heading-color);
+	margin-bottom: 1rem;
+}
+.about-page-social i {
+	font-size: 4.5rem;
+	margin-right: 1.5rem;
+}
+.about-page-social .fa-facebook-square {
+	color: var(--first-icon-color);
+}
+
+.about-page-social .fa-twitter-square {
+	color: var(--second-icon-color);
+}
+.about-page-social .fa-youtube-square {
+	color: var(--third-icon-color);
+}
+
+/*blog post*/
+.author-profile {
+	color: var(--text-color);
+}
+.author-profile h3 {
+	margin-top: 0.75rem;
+	font-weight: 700;
+	color: var(--heading-color);
+}
+.author-profile img {
+	width: 95%;
+	height: 95%;
+}
+.profile {
+	margin-left: 2.5rem !important;
+	margin-top: 0.5rem !important;
+}
+.profile-img img {
+	width: 10rem;
+	border-radius: 50%;
+}
+.post-text {
+	color: var(--text-color);
+}
+.post-text h5 {
+	font-weight: 800;
+	font-size: 1.5rem;
+	color: var(--heading-color);
+}
+
+/* about page */
+.about-page h1 {
+	color: var(--heading-color);
+	font-weight: 600;
+	margin-top: 0.5rem;
+}
+.about-page p {
+	margin-bottom: 0.5rem;
+	color: var(--text-color);
+}
+
+/* media queries*/
+@media (max-width: 992px) {
+	* {
+		font-size: 15px;
+	}
+}
+@media (max-width: 768px) {
+	* {
+		font-size: 14px;
+	}
+}
+@media (max-width: 576px) {
+	* {
+		font-size: 12px;
+	}
+}
+@media (max-width: 480px) {
+	* {
+		font-size: 11px;
+	}
+}
